@@ -7,6 +7,8 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import <ScriptingBridge/ScriptingBridge.h>
+#import "iTunes.h"
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
