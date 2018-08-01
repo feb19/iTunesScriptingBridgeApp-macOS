@@ -49,10 +49,18 @@
                                                         selector:@selector(updateTrackInfoFromITunes:)
                                                             name:@"com.apple.iTunes.playerInfo"
                                                           object:nil];
+    [[NSDistributedNotificationCenter defaultCenter] addObserver:self
+                                                        selector:@selector(updateTrackInfoFromSpotify:)
+                                                            name:@"com.spotify.client.PlaybackStateChanged"
+                                                          object:nil];
+    
 
 }
-
-- (void)updateTrackInfoFromITunes:(NSNotification *)notification
+- (void)updateTrackInfoFromSpotify: (NSNotification *)notification
+{
+    NSLog(@"%@", notification.userInfo);
+}
+- (void)updateTrackInfoFromITunes: (NSNotification *)notification
 {
     NSLog(@"%@", notification.userInfo);
 }
