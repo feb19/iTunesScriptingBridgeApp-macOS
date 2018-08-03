@@ -24,6 +24,7 @@
 		ED018E4121113DE100721F22 /* iTunesSBApp_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = iTunesSBApp_macOS.entitlements; sourceTree = "<group>"; };
 		ED018E4721113DF500721F22 /* iTunes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iTunes.h; sourceTree = "<group>"; };
 		ED018E4821113ECE00721F22 /* iTunesSBApp-macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "iTunesSBApp-macOS.entitlements"; sourceTree = "<group>"; };
+		EDD6395621150F470041CE18 /* SpotifyClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpotifyClient.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +59,7 @@
 			children = (
 				ED018E4821113ECE00721F22 /* iTunesSBApp-macOS.entitlements */,
 				ED018E4721113DF500721F22 /* iTunes.h */,
+				EDD6395621150F470041CE18 /* SpotifyClient.h */,
 				ED018E3621113DDF00721F22 /* AppDelegate.h */,
 				ED018E3721113DDF00721F22 /* AppDelegate.m */,
 				ED018E3921113DE100721F22 /* Assets.xcassets */,

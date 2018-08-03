@@ -19,6 +19,7 @@
     // Insert code here to initialize your application
     
     iTunesApplication *iTunes = [SBApplication applicationWithBundleIdentifier:@"com.apple.iTunes"];
+    SpotifyClientApplication *spotify = [SBApplication applicationWithBundleIdentifier:@"com.spotify.client"];
     if ( [iTunes isRunning] ) {
         int originalVolume;
         originalVolume = [[NSNumber numberWithDouble:[iTunes soundVolume]] intValue];
